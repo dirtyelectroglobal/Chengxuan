@@ -1,0 +1,32 @@
+.time_now {
+    color:orange;
+    font-family: 'Aboreto', cursive; /* 维基体 英文 */
+    font-size: large;
+
+    position: absolute;
+     top: 50%;
+     left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+.time_outlook {
+    position: absolute;
+     top: 16%;
+     left: 50%;
+
+    transform: translate(-50%,-50%);
+
+
+    width: 200px;
+    height: 50px;
+
+    background-color: black;
+
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 5px;
+
+    box-shadow: 0px 0px 10px;
+}
