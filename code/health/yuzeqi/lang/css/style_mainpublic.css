@@ -74,7 +74,7 @@
     color:white; 
     font-family: 'Noto Sans SC', sans-serif;/* 正常体 粗体 简体中文 */
     margin-left: 25px;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .intro_idcode {
@@ -87,7 +87,7 @@
 
 .current_state {
     position: absolute;
-     bottom: 10px;
+     bottom: 20%;
      left: 50%;
 
     transform: translate(-50%,-50%);
@@ -99,8 +99,6 @@
 }
 
 .health_green {
-
     color: green;
     font-family: 'ZCOOL QingKe HuangYou' , cursive; /*长体简体中文*/
-    font-size: large;
 }
