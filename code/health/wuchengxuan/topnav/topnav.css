@@ -1,0 +1,90 @@
+
+#topnav {
+    width: 100%;
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+ 
+    background-color: black;
+ 
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+ }
+
+ .nav-link {
+    display: inline-block; 
+    width: 100px;
+    height: 55px;
+    margin-left: 5%;
+ 
+    color: White;
+
+    font-family: 'Noto Sans SC', sans-serif;/* 正常体 粗体 简体中文 */
+ 
+    /* centering text */
+    text-align: center;    /* horizontally */
+    line-height: 55px;     /* vertically */
+    
+    text-decoration: none; /* 取消链接文字下划线 */
+ }
+
+ #logo {
+    width: 120px;
+
+    font-size: 20px;
+ 
+    background-color: black;
+    
+    font-weight: bold;
+
+    font-family: 'Aboreto', cursive;
+
+    margin-left:5%;
+
+    color: white;
+ }
+
+ #lang {
+   position: absolute;
+   top: 0;
+   /* right: 0;  */
+}
+
+#flag {
+   position: absolute;
+    top: 0;
+    right: 0; 
+}
+
+.lang_flag {
+   width: 25%;
+}
+
+em {
+   font-family: 'Aboreto', cursive;
+   font-style: normal;
+   margin-left: 5%;
+}
+
+
+ #about {
+    position: absolute;
+    top: 0;
+    right: 0; 
+ }
+
+ #eng {
+   position: absolute;
+   top: 0;
+   left: 50%; 
+}
+
+ /*
+ 
+ em {
+    font-family: 'Aboreto', cursive;
+    font-style: normal;
+    margin-left: 5%;
+ }
+ */
