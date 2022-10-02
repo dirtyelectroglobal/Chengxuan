@@ -1,0 +1,104 @@
+@import url(../font/font_ttf.css);
+
+.center {
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+
+    width: 300px;
+    height: 500px;
+    background-color: black;
+}
+
+.center_outlook {
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+
+    width: 75%;
+    height: 550px;
+    background-color: white;
+}
+
+.center_little {
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+
+    width: 330px;
+    height: 530px;
+    background-color: black;
+
+    border-top-left-radius:30px;      /*左上角单个边框圆角 */
+    border-top-right-radius:30px;      /*右上角单个边框圆角 */
+    border-bottom-left-radius:30px;      /*左下角单个边框圆角 */
+    border-bottom-right-radius:0px;      /*右下角单个边框圆角 */
+
+    box-shadow: 0px 0px 10px black;
+}
+
+.english_change {
+    position: absolute;
+     right: 5%;
+     top:5%;
+
+    width: 80px;
+    height: 30px;
+    background-color: black;
+
+    border-radius: 30px;
+}
+
+.changer {
+    position: absolute;
+     top: 0;
+     left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: large;
+}
+.top_code {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+.intro_name {
+    color:white; 
+    font-family: 'Noto Sans SC', sans-serif;/* 正常体 粗体 简体中文 */
+    margin-left: 25px;
+    font-size: x-large;
+}
+
+.intro_idcode {
+    color: gray;
+    font-family: 'Noto Sans SC', sans-serif;
+    margin-left: 25px;
+
+    font-size: small;
+}
+
+.current_state {
+    position: absolute;
+     bottom: 20%;
+     left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    color: white;
+    font-family: 'ZCOOL QingKe HuangYou' , cursive; /*长体简体中文*/
+    font-size: large;
+
+}
+
+.health_green {
+    color: green;
+    font-family: 'ZCOOL QingKe HuangYou' , cursive; /*长体简体中文*/
+}

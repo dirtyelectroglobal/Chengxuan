@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" onselectstart="return false"> <!-- 禁止选中文字 CAN NOT COPY-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hsuan's Health Code</title>
+    <link rel="stylesheet" href="css/style_mainpublic.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="topnav/topnav.css">
+    <link rel="stylesheet" href="topnav/copyright.css">
+    <link rel="stylesheet" href="css/time.css">
+    <link rel="stylesheet" href="font/font_ttf.css">
+        <script>
+            function time(){
+                var date = new Date();
+                var year = date.getFullYear();
+                var month = date.getMonth()+1;
+                var day = date.getDate();
+
+                var hour =date.getHours();
+                hour=hour<10?"0"+hour:hour;
+                var minute =date.getMinutes();
+                minute=minute<10?"0"+minute:minute;
+                var second = date.getSeconds();
+                second=second<10?"0"+second:second;
+                var currentTime = year+"-"+month+"-"+day+"   "+hour+":"+minute+":"+second;
+                document.getElementById("time").innerHTML=currentTime;
+            }
+            setInterval("time()",1000);
+        </script>
+
+        <style>
+             .tips {
+                position: absolute;
+                 bottom: 5%;
+                 left: 0%;
+
+
+
+                color: rgb(180, 180, 180);
+                font-family: 'Noto Sans SC', sans-serif;/* 正常体 粗体 简体中文 */
+                font-size: small;
+                text-align: center;
+        }
+        </style>
+
+ 
+</head>
+<body>
+    <!-- LINE OF TOPNAV CODE-------------------------------------->
+
+
+    <nav id="topnav">
+        <a id="logo" class="nav-link" href="#">Kuroko's&nbspWiki</a>
+        <a id="about" class="nav-link" href="../index.html">English</a>
+     </nav>
+
+    <!-- LINE OF TOPNAV CODE-------------------------------------->
+
+    <!-- HEALTH CODE LINE-------------------------------------->
+    
+    <div class="center_little">
+    <div class="center">
+        <div class="top_code">
+        <p class="intro_name">姓名：吴承轩</p>
+        <p class="intro_idcode">360981********4417</p></div>
+    <img src="images/health_code_black.png" width="100%" style="
+    position:absolute;
+     top:50%;
+     left: 50%;
+    transform: translate(-50%,-50%);">
+
+    <div class="time_outlook">
+
+    <span class="time_now" id="time"></span>
+
+    </div>
+
+    <span class="tips">免责声明：本站仅以“昌通码”为辅助的静态网站，仅用于核酸检测，严禁用于违法用途！</span>
+
+    <p class="current_state">当前状态：<span class="health_green">绿码</span></p>
+    </div>
+    </div>
+
+    <!-- HEALTH CODE LINE-------------------------------------->
+
+
+    <!-- COPYRIGHT LINE -->
+
+
+    <footer>
+    <p style="
+    position: absolute;
+     top: 0;
+     left: 10%;
+
+
+    font-family: 'Cinzel', serif;
+    color: white;">Team&nbsp;Hsuan.著作权所有&nbsp;2022&copy;<br>联系QQ:2958695257<br>传真:[United States]&nbsp;+1&nbsp;(864)&nbsp;453-1088</p>
+    </footer>
+
+
+</body>
+</html>
