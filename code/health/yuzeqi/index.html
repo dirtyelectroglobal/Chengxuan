@@ -30,6 +30,37 @@
             setInterval("time()",1000);
         </script>
 
+<style>
+    .tips {
+        color: rgb(180, 180, 180);
+        
+        font-size: small;
+    }
+
+    .anime_tips {
+        position: absolute;
+         right: 0;
+         bottom: 0;
+    }
+
+    .tips {
+        position: absolute;
+         bottom: 7%;
+         left: 50%;
+
+        transform: translate(-50%,-50%);
+
+
+
+        color: rgb(180, 180, 180);
+        font-family: 'Permanent Marker', cursive; /* 马克笔英文 */
+        font-size: small;
+        text-align: center;
+
+        width: 350px;
+}
+</style>
+
  
 </head>
 <body>
@@ -62,8 +93,13 @@
 
     </div>
 
+    <span class="tips">Health&nbsp;Code&nbsp;!&nbsp;Keep&nbsp;it&nbsp;up&nbsp;!<br>Please put your mask in the public place & keep it</span>
+
     <p class="current_state">Current&nbsp;State:</p><span class="health_green">GREEN&nbsp;HEALTH</span>
     </div>
+
+    <img class="anime_tips" src="images/anime_health_code.png" width="20%">
+    
     </div>
 
     <!-- HEALTH CODE LINE-------------------------------------->
